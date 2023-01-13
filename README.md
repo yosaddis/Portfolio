@@ -26,12 +26,7 @@ After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Portfolio Page</b></h3>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -70,16 +65,14 @@ After you're finished please remove all the comments and instructions!
 
 > 
 
-- **[key_feature_1]** creates menu or tool bar for mobile version.
-- **[key_feature_2]** creates a header section.
+-  creates menu or tool bar for mobile version.
+-  creates a header section.
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+> Link coming soon.
 
 <!-- AUTHORS -->
 
@@ -87,14 +80,20 @@ After you're finished please remove all the comments and instructions!
 
 > 
 
-👤 **Author1**
+👤 **Yoseph Addisu**
 
 - GitHub: [@yosaddis](https://github.com/yosaddis)
 - Twitter: [@yosaddis](https://twitter.com/yosaddis)
 
 
 <!-- FUTURE FEATURES -->
+## 🔭 Future Features <a name="future-features"></a>
 
+> This are the feature on the way.
+
+- more pages for the mobile version
+- desktop version of the website
+- interacting with the website visitors
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -118,7 +117,5 @@ Contributions, issues, and feature requests are welcome!
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
