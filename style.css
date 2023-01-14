@@ -103,7 +103,7 @@ li {
   grid-template-columns: 1fr;
   width: 90%;
   text-align: center;
-  margin: 0px auto;
+  margin: 0 auto;
   grid-template-rows: 200px repeat(5, 6fr);
 }
 
