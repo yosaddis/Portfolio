@@ -40,7 +40,7 @@ h1 {
   margin-bottom: 0;
 }
 
-header {
+.header {
   padding: 0 35px;
   display: flex;
   justify-content: space-between;
@@ -57,7 +57,7 @@ header {
   color: #28352f;
 }
 
-#header_green {
+.header_green {
   color: #36b37f;
 }
 
@@ -94,6 +94,10 @@ li {
   margin: 0 8px;
 }
 
+h2 {
+	font-size: 30px;
+}
+
 .headline h1:first-child {
   margin-top: 1.5em;
 }
@@ -111,7 +115,7 @@ li {
   padding: 1em;
 }
 
-.works h1:first-child::after {
+.works h2:first-child::after {
   content: '';
   height: 4px;
   width: 48px;
@@ -154,7 +158,7 @@ li {
 .card-languages li {
   background: #ebf0ee;
   border-radius: 3px;
-  font-size: 12px;
+  font-size: 14px;
   padding: 0.5em;
   margin: 0 0.5em;
 }
@@ -162,15 +166,18 @@ li {
 .skill-list li {
   background-color: #fff;
   color: #36b37f;
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 600;
   padding: 1em 0.5em;
   margin: 1em 0.5em;
   border-radius: 5px;
 }
 
-.card-work > .card-languages > li {
+.work-card > .card-languages > li {
   background: #ebf0ee;
-  font-size: 12px;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
   padding: 0.5em;
   margin: 0 0.5em;
   border-radius: 2px;
