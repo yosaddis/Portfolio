@@ -82,8 +82,13 @@ After you're finished please remove all the comments and instructions!
 
 👤 **Yoseph Addisu**
 
-- GitHub: [@yosaddis](https://github.com/yosaddis)
-- Twitter: [@yosaddis](https://twitter.com/yosaddis)
+- GitHub: [@githubhandle](https://github.com/yosaddis)
+- Twitter: [@twitter](https://twitter.com/yosaddis)
+
+👤 **Kajal Pramanik**
+
+- GitHub: [@githubhandle](https://github.com/Kajal19-del)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kajal-pramanik-234a93173/)
 
 
 <!-- FUTURE FEATURES -->
