@@ -21,6 +21,17 @@ button {
   padding: 1em 1.5em;
   color: white;
   border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.45);
+  cursor: grab;
+}
+
+button:active {
+  background: #008552;
+  cursor: grabbing;
 }
 
 img {
@@ -38,6 +49,17 @@ h1 {
   color: #172b4d;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.header-nav-desktop a {
+  list-style: none;
+  padding: 0;
+  margin: 1em;
+  font-size: 14px;
+  font-weight: bold;
+  color: #42526e;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .header-nav-mobile {
@@ -265,6 +287,10 @@ h2 {
   align-items: center;
 }
 
+.icon {
+  background-color: transparent;
+}
+
 .skill-name {
   font-size: 24px;
   color: #344563;
@@ -330,14 +356,6 @@ textarea {
   font-weight: bold;
 }
 
-button:hover {
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
-}
-
-button:active {
-  background: #008552;
-}
-
 .header-nav-desktop {
   display: none;
 }
@@ -359,6 +377,7 @@ button:active {
 
   .headline-text {
     padding-top: 3em;
+    transition: 0.5s ease-in 1s;
   }
 
   .header-nav-desktop {
@@ -418,6 +437,7 @@ button:active {
   body {
     padding-bottom: 0;
     margin-bottom: 0;
+    scroll-behavior: smooth;
   }
 
   .contact-container::after {
