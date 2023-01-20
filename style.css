@@ -406,6 +406,7 @@ button:active {
   .about-me-section {
     background: url(./img/background/about_me_desktop.svg) no-repeat 0% 20%, url(./img/background/about_me_desktop_1.svg) no-repeat 100% 0%;
   }
+
   .about-myself-ul {
     display: flex;
     flex-direction: row;
@@ -438,7 +439,7 @@ button:active {
     align-content: center;
   }
 
-  .contact-container>.social-media {
+  .contact-container > .social-media {
     margin-top: 18em;
   }
 
