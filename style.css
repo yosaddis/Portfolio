@@ -6,6 +6,7 @@ body {
   display: block;
   background: #fff;
   font-family: 'Inter', sans-serif;
+
   --shadow: 0 2px 10px -1px rgba(0, 0, 0, 0.8);
 }
 
@@ -208,7 +209,7 @@ h2 {
   border-radius: 5px;
 }
 
-.work-card>.card-languages>li {
+.work-card > .card-languages > li {
   background: #ebf0ee;
   font-family: Inter, sans-serif;
   font-size: 14px;
@@ -470,7 +471,7 @@ textarea {
     align-content: center;
   }
 
-  .contact-container>.social-media {
+  .contact-container > .social-media {
     margin-top: 18em;
   }
 
