@@ -54,7 +54,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
->The tech stack used is HTML and CSS. Also Flexbox is used.
+>The tech stack used is HTML and CSS. Also Flexbox and Grid layouts are used.
 
 <details>
 </details>
@@ -67,12 +67,17 @@ After you're finished please remove all the comments and instructions!
 
 -  creates menu or tool bar for mobile version.
 -  creates a header section.
+-  creates a section for the project I have accomplished.
+-  creates a section for my skills.
+-  creates a section for a contact us form.
+-  desktop version of the website is also included.
+-  accepts messages from visitors by linking with formspree.io 
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Link coming soon.
+> https://yosaddis.github.io/Portfolio/
 
 <!-- AUTHORS -->
 
@@ -96,9 +101,9 @@ After you're finished please remove all the comments and instructions!
 
 > This are the feature on the way.
 
-- more pages for the mobile version
-- desktop version of the website
-- interacting with the website visitors
+- more dynamic pages for the mobile and desktop version
+- Java script will be added to the project.
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -115,7 +120,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thank Microverse.
+> I would like to thank Microverse and my collaborators.
 
 <!-- LICENSE -->
 
