@@ -16,7 +16,7 @@ button {
   border: none;
   width: fit-content;
   align-self: center;
-  background: #36b37f;
+  background: #0e5a3b;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 2px;
@@ -89,7 +89,7 @@ h1 {
 }
 
 .header_green {
-  color: #36b37f;
+  color: #0e5a3b;
 }
 
 .headline {
@@ -183,6 +183,8 @@ h2 {
   box-sizing: border-box;
   grid-column: 1/-1;
   grid-row: 2/3;
+  background: #ebf0ee;
+  min-height: 220px;
 }
 
 .work-thumbnail img {
@@ -201,7 +203,7 @@ h2 {
 
 .skill-list li {
   background-color: #fff;
-  color: #36b37f;
+  color: #0e5a3b;
   font-size: 14px;
   font-weight: 600;
   padding: 1em 0.5em;
