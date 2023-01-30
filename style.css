@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   display: block;
-  background: #fff;
+  background: rgb(245, 246, 246);
   font-family: 'Inter', sans-serif;
 
   --shadow: 0 2px 10px -1px rgba(0, 0, 0, 0.8);
@@ -211,16 +211,6 @@ h2 {
   border-radius: 5px;
 }
 
-.work-card > .card-languages > li {
-  background: #ebf0ee;
-  font-family: Inter, sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 0.5em;
-  margin: 0 0.5em;
-  border-radius: 2px;
-}
-
 .card-title {
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -382,6 +372,75 @@ textarea {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.nav-mobile {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 95%;
+  background-color: white;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  color: #3a4a42;
+}
+
+.nav-mobile.hidden {
+  display: none;
+}
+
+.nav-mobile > button {
+  margin: 0.5em 0.5em;
+  align-self: flex-end;
+}
+
+.mobile-menu-btn.hidden {
+  display: none;
+}
+
+.mobile-menu-btn {
+  background-color: transparent;
+}
+
+.mobile-menu-close-btn.hidden {
+  display: none;
+}
+
+.mobile-menu-close-btn {
+  background-color: transparent;
+}
+
+.nav-mobile > ul > li {
+  margin-left: 28px;
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.nav-mobile > ul > li > a {
+  font-size: 28px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #3a4a42;
+}
+
+.work-card > .card-languages > li {
+  background: #ebf0ee;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.5em;
+  margin: 0 0.5em;
+  border-radius: 2px;
+}
+
+.link-my-works:hover,
+.link-about-me:hover,
+.link-contact-me:hover {
+  color: #509467;
 }
 
 @media (min-width: 768px) {
