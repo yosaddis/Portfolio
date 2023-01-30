@@ -17,9 +17,7 @@ mobileMenuCloseBtn.addEventListener('click', () => {
 
 linkMyWorks.addEventListener('click', () => {
 	navMobile.classList.add('hidden');
-	console.log('Pass 1');
 	mobileMenuBtn.classList.remove('hidden');
-	console.log('Pass 2');
 });
 
 linkAboutMe.addEventListener('click', () =>{
