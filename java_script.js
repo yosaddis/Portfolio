@@ -6,7 +6,6 @@ const linkAboutMe = document.querySelector('.link-about-me');
 const linkContactMe = document.querySelector('.link-contact-me');
 const myWorks = document.querySelector('#works-list');
 
-
 const myWorksContent = [
   {
     id: 0,
@@ -137,26 +136,24 @@ const popupDiv = (index) => `
 `;
 
 function createMyWorksList(myWorksContent) {
-
   const myWorksList = `
-			<div class="work-card">
-				<div class="work-thumbnail">
-				</div>
-				<h3 class="card-title">${myWorksContent.title}</h3>
-				<ul class="card-languages" >
-					<li>${myWorksContent.tecnologies.tech1}</li>
-					<li>${myWorksContent.tecnologies.tech2}</li>
-					<li>${myWorksContent.tecnologies.tech3}</li>
-					<li>${myWorksContent.tecnologies.tech4}</li>
-				</ul>
-				<button type="button" class="pop-up"> See Project</button>
-			</div>`;
+      <div class="work-card">
+        <div class="work-thumbnail">
+        </div>
+        <h3 class="card-title">${myWorksContent.title}</h3>
+        <ul class="card-languages" >
+          <li>${myWorksContent.tecnologies.tech1}</li>
+          <li>${myWorksContent.tecnologies.tech2}</li>
+          <li>${myWorksContent.tecnologies.tech3}</li>
+          <li>${myWorksContent.tecnologies.tech4}</li>
+        </ul>
+        <button type="button" class="pop-up"> See Project</button>
+      </div>`;
   return myWorksList;
 }
 
-for (let i=0; i < myWorksContent.length; i += 1){
+for (let i = 0; i < myWorksContent.length; i += 1) {
   const work = createMyWorksList(myWorksContent[i]);
-  console.log(i + work);
   myWorks.innerHTML += work;
 }
 
