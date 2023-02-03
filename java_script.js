@@ -4,7 +4,8 @@ const mobileMenuCloseBtn = document.querySelector('.mobile-menu-close-btn');
 const linkMyWorks = document.querySelector('.link-my-works');
 const linkAboutMe = document.querySelector('.link-about-me');
 const linkContactMe = document.querySelector('.link-contact-me');
-const popupBtns = document.querySelectorAll('.pop-up');
+const myWorks = document.querySelector('#works-list');
+
 
 const myWorksContent = [
   {
@@ -100,6 +101,7 @@ const myWorksContent = [
 ];
 
 const popupDiv = (index) => `
+
  <section class="my-works-details">
           <button type="button" class="icon btn-close-pop-up">
               <img class="icon" src="./img/icon/Icon-cancel-menu.svg" alt="cancel icon">
@@ -110,7 +112,7 @@ const popupDiv = (index) => `
           <h2 class="work-title-mobile">
               ${myWorksContent[index].title}
           </h2>
-          <ul class="work-tags-mobile">s
+          <ul class="work-tags-mobile">
               <li class="tag-mobile">${myWorksContent[index].tecnologies.tech1}</li>
               <li class="tag-mobile">${myWorksContent[index].tecnologies.tech2}</li>
               <li class="tag-mobile">${myWorksContent[index].tecnologies.tech3}</li>
@@ -131,7 +133,34 @@ const popupDiv = (index) => `
           </div>
           <script src="java_script.js"></script>
   </section>
+
 `;
+
+function createMyWorksList(myWorksContent) {
+
+  const myWorksList = `
+			<div class="work-card">
+				<div class="work-thumbnail">
+				</div>
+				<h3 class="card-title">${myWorksContent.title}</h3>
+				<ul class="card-languages" >
+					<li>${myWorksContent.tecnologies.tech1}</li>
+					<li>${myWorksContent.tecnologies.tech2}</li>
+					<li>${myWorksContent.tecnologies.tech3}</li>
+					<li>${myWorksContent.tecnologies.tech4}</li>
+				</ul>
+				<button type="button" class="pop-up"> See Project</button>
+			</div>`;
+  return myWorksList;
+}
+
+for (let i=0; i < myWorksContent.length; i += 1){
+  const work = createMyWorksList(myWorksContent[i]);
+  console.log(i + work);
+  myWorks.innerHTML += work;
+}
+
+const popupBtns = document.querySelectorAll('.pop-up');
 
 mobileMenuBtn.addEventListener('click', () => {
   mobileMenuBtn.classList.add('hidden');
@@ -161,6 +190,7 @@ linkContactMe.addEventListener('click', () => {
 for (let i = 0; i < popupBtns.length; i += 1) {
   popupBtns[i].addEventListener('click', () => {
     const myWork = document.createElement('div');
+    myWork.classList.add('pop-up-bk');
     myWork.innerHTML = popupDiv(i);
     document.body.appendChild(myWork);
     const closePopupBtn = document.querySelector('.btn-close-pop-up');
