@@ -218,36 +218,36 @@ const { message } = contactFrom.elements;
 
 let formContent = {};
 if (localStorage.savedForm) {
-	formContent = JSON.parse(localStorage.getItem('savedForm'));
+  formContent = JSON.parse(localStorage.getItem('savedForm'));
 }
 
 fullname.addEventListener('change', () => {
-	formContent.fullName = fullname.value;
+  formContent.fullName = fullname.value;
 });
 
 email.addEventListener('change', () => {
-	formContent.email = email.value;
+  formContent.email = email.value;
 });
 
 message.addEventListener('change', () => {
-	formContent.message = message.value;
+  formContent.message = message.value;
 });
 
 const fillFormContent = () => {
-	if (formContent.fullName) {
-		fullname.value = formContent.fullName;
-	}
-	if (formContent.email) {
-		email.value = formContent.email;
-	}
-	if (formContent.message) {
-		message.value = formContent.message;
-	}
+  if (formContent.fullName) {
+    fullname.value = formContent.fullName;
+  }
+  if (formContent.email) {
+    email.value = formContent.email;
+  }
+  if (formContent.message) {
+    message.value = formContent.message;
+  }
 };
 
 const updateFields = () => {
-	localStorage.setItem('savedForm', JSON.stringify(formContent));
-	fillFormContent();
+  localStorage.setItem('savedForm', JSON.stringify(formContent));
+  fillFormContent();
 };
 updateFields();
 contactFrom.onchange = updateFields;
