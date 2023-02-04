@@ -198,7 +198,9 @@ for (let i = 0; i < popupBtns.length; i += 1) {
 }
 
 const contactFrom = document.querySelector('.form-elements');
+
 const { email } = contactFrom.elements;
+
 const validationError = document.querySelector('small');
 
 contactFrom.addEventListener('submit', (e) => {
