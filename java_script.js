@@ -6,6 +6,7 @@ const linkAboutMe = document.querySelector('.link-about-me');
 const linkContactMe = document.querySelector('.link-contact-me');
 const myWorks = document.querySelector('#works-list');
 
+
 const myWorksContent = [
   {
     id: 0,
@@ -196,3 +197,20 @@ for (let i = 0; i < popupBtns.length; i += 1) {
     });
   });
 }
+
+
+const contactFrom = document.querySelector('.form-elements');
+const [fullname, email, message] = contactFrom.elements;
+const validationError = document.querySelector('small');
+
+contactFrom.addEventListener('submit', (e) => {
+	e.preventDefault();
+	const regex = /[A-Z]/;
+	console.log(regex.test(email.value));
+	if (!regex.test(email.value)) {
+		contactFrom.submit();
+	} else {
+		validationError.innerText = 'Please write your email in only lower case.';
+	}
+});
+
