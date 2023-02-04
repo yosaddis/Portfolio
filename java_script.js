@@ -196,3 +196,19 @@ for (let i = 0; i < popupBtns.length; i += 1) {
     });
   });
 }
+
+const contactFrom = document.querySelector('.form-elements');
+
+const { email } = contactFrom.elements;
+
+const validationError = document.querySelector('small');
+
+contactFrom.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const regex = /[A-Z]/;
+  if (!regex.test(email.value)) {
+    contactFrom.submit();
+  } else {
+    validationError.innerText = 'Please write your email in only lower case.';
+  }
+});
