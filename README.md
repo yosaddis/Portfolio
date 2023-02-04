@@ -38,6 +38,9 @@ After you're finished please remove all the comments and instructions!
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [⭐️ Show your support](#support)
@@ -64,20 +67,53 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 > 
-
 -  creates menu or tool bar for mobile version.
 -  creates a header section.
 -  creates a section for the project I have accomplished.
 -  creates a section for my skills.
 -  creates a section for a contact us form.
--  desktop version of the website is also included.
--  accepts messages from visitors by linking with formspree.io 
+-  Desktop version of the website is also included.
+-  Accepts messages from visitors by linking with formspree.io 
+-  Implements web accessibility features.
+-  Uses java script to create mobile menu and projects section.
+-  Displays details of individual projects in popup window.
+-  Validates users input using java script.
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+### 🚀 Live Demo <a name="live-demo"></a>
 
 > https://yosaddis.github.io/Portfolio/
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up follow these simple example steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+> git
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone git@github.com:yosaddis/Portfolio.git
+```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
@@ -101,8 +137,8 @@ After you're finished please remove all the comments and instructions!
 
 > This are the feature on the way.
 
-- more dynamic pages for the mobile and desktop version
-- Java script will be added to the project.
+- Use local storage in java script.
+- Add actual contents to the website..
 
 <!-- CONTRIBUTING -->
 
