@@ -190,7 +190,7 @@ h2 {
 .work-thumbnail img {
   width: 100%;
   min-height: 220px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .card-languages li {
@@ -479,7 +479,8 @@ textarea {
   width: 100%;
   min-height: 220px;
   object-fit: cover;
-  content: url("./img/background/bk.png");
+
+  /**  content: url("./img/background/bk.png");  **/
 }
 
 .work-title-mobile {
@@ -612,7 +613,8 @@ textarea {
     overflow: hidden;
     box-sizing: border-box;
     border-radius: 16px;
-    content: url("./img/background/Snapshoot-Portfolio-desktop.svg");
+
+    /**  content: url("./img/background/Snapshoot-Portfolio-desktop.svg");  **/
   }
 
   .work-title-mobile {

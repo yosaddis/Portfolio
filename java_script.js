@@ -9,18 +9,18 @@ const myWorks = document.querySelector('#works-list');
 const myWorksContent = [
   {
     id: 0,
-    url: './img/background/bk.png',
-    alt: 'Project preview image',
-    title: 'My Works Title 1',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    url: './img/screenshot/3_todo_completed_tasks.png',
+    alt: 'My todo list project',
+    title: 'Todo List Project',
+    description: 'In this project, I will build a simple HTML list of To Do tasks using webpack to bundle JS, ES6 syntax and modules.',
     tecnologies: {
-      tech1: 'CodeKit',
+      tech1: 'HTML',
       tech2: 'GitHub',
-      tech3: 'Javascript',
-      tech4: 'Bootstrap',
+      tech3: 'JavaScript/ES6',
+      tech4: 'CSS',
     },
-    linkVersion: '#',
-    linkSource: '#',
+    linkVersion: 'https://yosaddis.github.io/todo-list/',
+    linkSource: 'https://github.com/yosaddis/todo-list',
   },
   {
     id: 1,
@@ -139,6 +139,7 @@ function createMyWorksList(myWorksContent) {
   const myWorksList = `
       <div class="work-card">
         <div class="work-thumbnail">
+          <img src=${myWorksContent.url}>
         </div>
         <h3 class="card-title">${myWorksContent.title}</h3>
         <ul class="card-languages" >
