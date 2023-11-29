@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
->The tech stack used is HTML and CSS. Also Flexbox and Grid layouts are used.
+> The tech stack used is HTML and CSS. Also Flexbox and Grid layouts are used.
 
 <details>
 </details>
@@ -66,18 +66,19 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> 
--  creates menu or tool bar for mobile version.
--  creates a header section.
--  creates a section for the project I have accomplished.
--  creates a section for my skills.
--  creates a section for a contact us form.
--  Desktop version of the website is also included.
--  Accepts messages from visitors by linking with formspree.io 
--  Implements web accessibility features.
--  Uses java script to create mobile menu and projects section.
--  Displays details of individual projects in popup window.
--  Validates users input using java script.
+>
+
+- creates menu or tool bar for mobile version.
+- creates a header section.
+- creates a section for the project I have accomplished.
+- creates a section for my skills.
+- creates a section for a contact us form.
+- Desktop version of the website is also included.
+- Accepts messages from visitors by linking with formspree.io
+- Implements web accessibility features.
+- Uses java script to create mobile menu and projects section.
+- Displays details of individual projects in popup window.
+- Validates users input using java script.
 
 <!-- LIVE DEMO -->
 
@@ -113,26 +114,28 @@ Clone this repository to your desired folder:
   cd my-folder
   git clone git@github.com:yosaddis/Portfolio.git
 ```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> 
+>
 
 👤 **Yoseph Addisu**
 
 - GitHub: [@githubhandle](https://github.com/yosaddis)
 - Twitter: [@twitter](https://twitter.com/yosaddis)
+- Portfolio: [Portfolio](https:https://yoseph-portfolio.onrender.com/)
 
 👤 **Kajal Pramanik**
 
 - GitHub: [@githubhandle](https://github.com/Kajal19-del)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kajal-pramanik-234a93173/)
 
-
 <!-- FUTURE FEATURES -->
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 > This are the feature on the way.
